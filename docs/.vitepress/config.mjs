@@ -4,9 +4,9 @@ export default defineConfig({
   base: "/harbor/",
   title: "Harbor",
   description: "Harbor Documentation",
-  head: [['link', { rel: 'icon', href: '/image/icon/icon-light@1x.png' }]],
+  head: [['link', { rel: 'icon', href: '/assets/icon/icon-light@1x.png' }]],
   themeConfig: {
-    logo: '/image/icon/icon-light@2x.png',
+    logo: '/assets/icon/icon-light@2x.png',
     nav: [
       { text: '指南', link: '/guide/about' },
       { text: '集成', link: '/integrate' },
