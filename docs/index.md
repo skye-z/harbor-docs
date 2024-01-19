@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /markdown-examples
+      link: /guide/start
     - theme: alt
       text: Github
       link: https://github.com/skye-z/harbor
