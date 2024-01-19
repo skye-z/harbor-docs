@@ -6,7 +6,7 @@ hero:
   text: "轻量级 本地化<br/>Docker 管理平台"
   tagline: 体积小、开销低、功能强大, 为运维提供强有力的帮助
   image:
-    src: /assets/icon/icon-dark@4x.png
+    src: /icon/icon-dark@4x.png
     alt: VitePress
   actions:
     - theme: brand
