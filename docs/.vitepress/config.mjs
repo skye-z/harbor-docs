@@ -9,7 +9,6 @@ export default defineConfig({
     logo: '/icon/icon-light@2x.png',
     nav: [
       { text: '指南', link: '/guide/about' },
-      { text: '集成', link: '/integrate' },
       { text: '接口', link: '/api' },
       { text: '社区', link: '/community' },
     ],
@@ -20,6 +19,12 @@ export default defineConfig({
         items: [
           { text: '关于 Harbor', link: '/guide/about' },
           { text: '快速开始', link: '/guide/start' }
+        ]
+      },
+      {
+        text: '集成',
+        items: [
+          { text: 'OAuth2', link: '/guide/oauth2' }
         ]
       }
     ],
