@@ -5,7 +5,7 @@
 请复制下方命令到服务器终端中执行，脚本提供了 Harbor 的安装、卸载于开启自启设置服务。
 
 ```shell
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/skye-z/harbor/main/install.sh)"
+bash -c "$(curl -fsSL https://skye-z.github.io/harbor/install.sh)"
 ```
 
 安装完成后将会自动运行。
