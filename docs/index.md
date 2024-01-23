@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: "Harbor"
-  text: "轻量级 本地化<br/>Docker 管理平台"
-  tagline: 体积小、开销低、功能强大, 为运维提供强有力的帮助
+  text: "轻量级 本地化\nDocker 管理平台"
+  tagline: 为快速交付与后期运维提供强有力的帮助
   image:
     src: /icon/icon-dark@4x.png
     alt: VitePress
