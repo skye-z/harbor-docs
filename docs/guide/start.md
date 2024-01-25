@@ -1,8 +1,8 @@
 # 快速开始
 
-## 一键安装(推荐)
+## 在线安装(推荐)
 
-请复制下方命令到服务器终端中执行，脚本提供了 Harbor 的安装、卸载于开启自启设置服务。
+请复制下方命令到服务器终端中执行，脚本提供了 Harbor 的安装、卸载与开启自启设置服务。
 
 ```shell
 bash -c "$(curl -fsSL https://skye-z.github.io/harbor/install.sh)"
@@ -18,36 +18,26 @@ bash -c "$(curl -fsSL https://skye-z.github.io/harbor/install.sh)"
 
 至此安装已全部完成，请访问 **12800** 端口登陆 Harbor。
 
-## 手动安装
+## 离线安装
 
-### 下载 Harbor
+### 下载 Harbor 安装文件
 
 请访问[releases](https://github.com/skye-z/harbor/releases)下载最新的可执行文件。
+
+然后访问[install.sh](https://github.com/skye-z/harbor/blob/main/install.sh)下载安装脚本。
 
 ### 上传至服务器
 
 请将上一步下载的可执行文件上传至服务器中。
 
-### 授予执行权限
+### 执行安装脚本
 
-然后在可执行文件所在目录下运行下方的命令。
-
-```shell
-chmod +x ./harbor
-```
-
-### 前台运行初始化
-
-请执行下方命令运行 Harbor，初始化完成后会在日志中输出管理密码。
+务器终端中执行，脚本提供了 Harbor 的安装、卸载与开启自启设置服务。
 
 ```shell
-./harbor
+bash ./install.sh
 ```
 
-### 后台运行
+执行后请选择脚本菜单中的第二项`Install Harbor (Offline)`。
 
-获取到管理密码后即可转为后台运行。
-
-```shell
-nohup ./harbor &
-```
+至此后续的内容与在线安装一致。
