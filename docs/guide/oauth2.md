@@ -50,4 +50,4 @@ usernamekey=姓名字段
 
 ## 绑定账户
 
-使用账号密码登陆 Harbor，然后在“我的”窗口点击“授权绑定”按钮将 Harbor 账户与 OAuth2 账户进行关联。
+使用账号密码登陆 Harbor，然后将鼠标悬浮至窗口右上角头像处, 点击“OAuth2绑定”按钮将 Harbor 账户与 OAuth2 账户进行关联。
