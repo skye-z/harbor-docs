@@ -16,6 +16,8 @@ bash -c "$(curl -fsSL https://skye-z.github.io/harbor/install.sh)"
 2024/01/01 00:00:00 [Tips] create default admin，password is ..........
 ```
 
+这里插一句，不要急着访问，请先用 `systemctl status harbor` 查询日志复制密码!
+
 至此安装已全部完成，请访问 **12800** 端口登陆 Harbor。
 
 ## 离线安装
@@ -41,3 +43,14 @@ bash ./install.sh
 执行后请选择脚本菜单中的第二项`Install Harbor (Offline)`。
 
 至此后续的内容与在线安装一致。
+
+## 控制
+
+```shell
+# 启动 Harbor
+systemctl start harbor
+# 停止 Harbor
+systemctl stop harbor
+# 查看 Harbor 状态与日志
+systemctl status harbor
+```
