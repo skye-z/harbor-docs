@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  // base: "/harbor/",
+  base: "/harbor/",
   title: "Harbor",
   description: "Harbor Documentation",
   head: [['link', { rel: 'icon', href: '/icon/icon-light@1x.png' }]],
