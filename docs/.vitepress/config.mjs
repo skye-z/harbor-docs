@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: "/harbor/",
+  // base: "/harbor/",
   title: "Harbor",
   description: "Harbor Documentation",
   head: [['link', { rel: 'icon', href: '/icon/icon-light@1x.png' }]],
@@ -17,14 +17,22 @@ export default defineConfig({
         text: '指南',
         items: [
           { text: '关于 Harbor', link: '/guide/about' },
-          { text: '快速开始', link: '/guide/start' }
+          { text: '快速开始', link: '/guide/start' },
+          { text: '兼容性', link: '/guide/compatible' },
+          { text: '初始化', link: '/guide/reinit' }
+        ]
+      },
+      {
+        text: '功能',
+        items: [
+          { text: '控制台', link: '/function/console' }
         ]
       },
       {
         text: '集成',
         items: [
-          { text: 'OAuth2', link: '/guide/oauth2' },
-          { text: '监控告警', link: '/guide/alarm' }
+          { text: 'OAuth2', link: '/integration/oauth2' },
+          { text: '监控告警', link: '/integration/alarm' }
         ]
       }
     ],

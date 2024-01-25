@@ -12,7 +12,7 @@ bash -c "$(curl -fsSL https://skye-z.github.io/harbor/install.sh)"
 
 首次运行 Harbor 会自动生成管理账户，密码将输出在日志中，如下所示:
 
-```log
+```txt
 2024/01/01 00:00:00 [Tips] create default admin，password is ..........
 ```
 

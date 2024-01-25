@@ -25,7 +25,7 @@ features:
     details: 在网络条件好的情况下使用一键脚本可在30秒内完成安装
   - icon: ⚡️
     title: 开销低
-    details: 在本地管理常见场景中开销仅 3 ~ 8% 的 CPU 和不到 25MB 的内存
+    details: 在本地管理常见场景中开销仅 3 ~ 8% 的 CPU 和不到 30MB 的内存
   - icon: 📦
     title: 零依赖
     details: 不依赖外部组件运行, 降低了受部署环境影响的可能性
