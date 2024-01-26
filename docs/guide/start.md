@@ -2,7 +2,7 @@
 
 ## 在线安装(推荐)
 
-请复制下方命令到服务器终端中执行，脚本提供了 Harbor 的安装、卸载与开启自启设置服务。
+请复制下方命令到服务器终端中执行，脚本提供了 Harbor 的安装、卸载与开机自启设置服务。
 
 ```shell
 bash -c "$(curl -fsSL https://skye-z.github.io/harbor/install.sh)"
@@ -34,7 +34,7 @@ bash -c "$(curl -fsSL https://skye-z.github.io/harbor/install.sh)"
 
 ### 执行安装脚本
 
-务器终端中执行，脚本提供了 Harbor 的安装、卸载与开启自启设置服务。
+请复制下方命令到服务器终端中执行。
 
 ```shell
 bash ./install.sh
