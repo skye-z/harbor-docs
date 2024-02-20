@@ -15,6 +15,8 @@ Harbor 可以在下列平台运行:
 * Risc-V: 64位
 * IBM-Z: 64位
 
+> 除 x86 和 ARM 其他需自行编译
+
 ## 浏览器
 
 Harbor UI 不支持 IE 浏览器！！！
