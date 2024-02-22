@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: "/harbor/",
+  // base: "/harbor/",
   title: "Harbor",
   description: "Harbor Documentation",
   head: [['link', { rel: 'icon', href: '/icon/icon-light@1x.png' }]],
@@ -19,13 +19,20 @@ export default defineConfig({
           { text: '关于 Harbor', link: '/guide/about' },
           { text: '快速开始', link: '/guide/start' },
           { text: '兼容性', link: '/guide/compatible' },
-          { text: '初始化', link: '/guide/reinit' }
+          { text: '初始化', link: '/guide/reinit' },
+          { text: '最小化', link: '/guide/min' }
         ]
       },
       {
         text: '功能',
         items: [
-          { text: '控制台', link: '/function/console' }
+          { text: '控制台', link: '/function/console' },
+          { text: '容器管理', link: '/function/container' },
+          { text: '镜像管理', link: '/function/image' },
+          { text: '网络管理', link: '/function/network' },
+          { text: '存储管理', link: '/function/volume' },
+          { text: '日志', link: '/function/logs' },
+          { text: '用户', link: '/function/user' }
         ]
       },
       {
@@ -45,9 +52,14 @@ export default defineConfig({
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2024-present Skye Zhang'
-    }
+    },
+    search: {
+      provider: 'local'
+    },
   },
-  search: {
-    provider: 'local'
+  markdown: {
+    image: {
+      lazyLoading: true
+    }
   }
 })

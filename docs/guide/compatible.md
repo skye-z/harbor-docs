@@ -15,7 +15,13 @@ Harbor 可以在下列平台运行:
 * Risc-V: 64位
 * IBM-Z: 64位
 
-> 除 x86 和 ARM 其他需自行编译
+除 x86 和 ARM 其他需自行使用下方命令编译。
+
+```shell
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o harbor -ldflags '-s -w'
+```
+
+命令中的 `GOOS` 是系统，`GOARCH` 是架构，替换这两个参数后执行即可打包编译。
 
 ## 浏览器
 
