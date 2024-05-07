@@ -24,15 +24,18 @@ Harbor 支持接入 HTTP 消息通知服务，当监控到配置的告警项目�
 
 上述配置在配置文件中如下所示
 
-```ini
-[alarm]
-enable=是否启用(0或1)
-path=通知地址
-interval=通知间隔(整数/小时)
-event=触发事件(逗号分隔)
-loadthreshold=负载阈值(小数,最大为1)
-memorythreshold=内存阈值(整数,最大100)
-diskthreshold=磁盘阈值(整数,最大100)
+```json
+{
+    "alarm": {
+        "enable": "是否启用(0或1)",
+        "path": "通知地址",
+        "interval": "通知间隔(整数/小时)",
+        "event": "触发事件(逗号分隔)",
+        "loadthreshold": "负载阈值(小数,最大为1)",
+        "memorythreshold": "内存阈值(整数,最大100)",
+        "diskthreshold": "磁盘阈值(整数,最大100)"
+    }
+}
 ```
 
 ## 监控频率
