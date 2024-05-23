@@ -12,7 +12,7 @@
 
 现在请停止 Harbor 服务。
 
-然后删除 Harbor 目录下 `config.ini` 和 `local.store` 两个文件，它们分别是配置文件和数据库文件。
+然后删除 Harbor 目录下 `config.json` 和 `local.store` 两个文件，它们分别是配置文件和数据库文件。
 
 最后重新启动 Harbor 服务即可。
 
@@ -24,6 +24,6 @@
 
 然后删除 Harbor 目录下 `local.store` 文件。
 
-再打开 `config.ini` 文件，将文件中的 `install=1` 改为 `install=0` 后保存文件。
+再打开 `config.json` 文件，将文件中的 `install=1` 改为 `install=0` 后保存文件。
 
 最后重新启动 Harbor 服务即可。
